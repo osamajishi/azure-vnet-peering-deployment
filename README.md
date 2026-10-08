@@ -91,4 +91,5 @@ Accessed `vm1` via Remote Desktop and configured the Windows Defender Firewall t
 Verified the peering routing table by initiating a nested Remote Desktop session from `vm1` directly to the private IP address of `vm2` (`10.2.0.4`), confirming that traffic successfully traversed the peered boundary without traversing the public internet.
 
 ![Private Connectivity Validation](connection-vm2.png)
+
 *Successful nested RDP connection from vm1 to vm2 utilizing the internal 10.2.0.4 address.*
